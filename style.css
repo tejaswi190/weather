@@ -1,0 +1,139 @@
+body{
+    background-color:#f5f5f0;
+    line-height: 1;
+    margin: 10px;
+}
+.container{
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 10px;
+    height: 100%;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width:100%}
+ul{
+    margin: 0;
+}
+li{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    text-align: left;
+    border: 3px;
+    border-color: black;
+    margin-bottom: 20px;
+    
+}
+button{
+    border-color: white;
+    border-radius: 7px;
+    padding: 8px;
+    /* margin-left: 2px; */
+    box-shadow: inset;
+    font-size: 20px;
+    width: 80%
+}
+.left{
+    margin-right: 0;
+    border-radius: 10px;
+    height: 100%;
+    /* padding: 20px; */
+}
+
+
+
+
+.middle{
+    background-color:#2e49b3;
+    border-radius: 10px;
+    padding: 20px;
+    border: 5px;
+    height: 100%;
+}
+.side{
+    background-color: #3d94eb;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+}
+.search{
+    border-radius: 7px;
+    padding: 5px;
+    width: 300px;
+}
+h1{
+    color: white;
+}
+.col-6{
+    width: 40%;
+    height: 220px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 5px;
+    margin-right: 20px;
+    /* padding: 2px; */
+}
+.col-3{
+    width: 20%;
+    height: 125px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    /* padding: 1px; */
+    margin: 5px;
+}
+.image{
+    width: 40%;
+    height: 10%;
+    background-color: whitesmoke;
+    margin: 5px;
+}
+.weather{
+    color: white;
+}
+.info{
+    color: white;
+}
+.info button{
+    background-color: #3d94eb;
+    width: 10%;
+}
+.city{
+    color: white;
+}
+.city button{
+    background-color: #3d94eb;
+    width: 10%;
+    color: white;
+}
+.city1,
+.city2,
+.extra{
+    margin: 10px;
+}
