@@ -137,3 +137,16 @@ h1{
 .extra{
     margin: 10px;
 }
+.bell{
+    position: absolute;
+    bottom: 12%;
+    width: auto;
+    padding: 10px;
+    font-size: 20px;
+}
+.user{
+    position: absolute;
+    bottom: 5%;
+    width: auto;
+    padding: 10px;
+}
